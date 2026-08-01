@@ -1,8 +1,26 @@
 aid: souffl-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/souffl-therapeutics.png
 name: Soufflé Therapeutics
-description: 'Soufflé Therapeutics is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Soufflé Therapeutics is a genetic medicine company developing nucleic
+  acid (siRNA) therapeutics that use proprietary cell-specific ligand-conjugation
+  technology to target and deliver treatments to specific cell types. Its initial
+  programs address muscle and heart disorders, with first therapies targeting
+  Facioscapulohumeral Muscular Dystrophy (FSHD) and genetically-driven cardiomyopathies,
+  with clinical trials expected to begin in 2026. The company is headquartered in
+  Watertown, Massachusetts and was surfaced through the API Evangelist network as a
+  portfolio company of Bessemer Venture Partners. It is a therapeutics/pharmaceutical
+  company and publishes no public API, developer portal, or SDK surface.'
 url: https://raw.githubusercontent.com/api-evangelist/souffl-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Biotech
+- Therapeutics
+- Genetic Medicine
+- siRNA
+- RNA Therapeutics
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/souffl-therapeutics-domain-security.yml
 - type: Website
   url: https://www.souffletx.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vc-backed-biotech-newco/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
